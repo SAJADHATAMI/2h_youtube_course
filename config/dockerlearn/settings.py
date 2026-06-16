@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'dockerlearn.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'my_database',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
+        'NAME': 'postdb',
+        'USER': 'admin1',
+        'PASSWORD': 'admin1',
         'HOST': 'db',
         'PORT': '5432',
     }
